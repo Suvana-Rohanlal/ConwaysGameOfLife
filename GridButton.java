@@ -10,7 +10,7 @@ public class GridButton extends JButton implements ActionListener{
     byte value=0;
 
     public GridButton(){
-        X=new ImageIcon(this.getClass().getResource("yellow.png"));
+        X=new ImageIcon(this.getClass().getResource("yellow.jpg"));
         this.addActionListener(this);
     }
 

@@ -77,9 +77,13 @@ public class ConwaysGame extends JFrame{
          */
         JPanel panel = new JPanel(); 
         JButton start = new JButton("Start");
+        JButton next = new JButton("Next");
         JButton exit = new JButton("Exit");
         panel.add(start);
+        panel.add(next);
         panel.add(exit);
+        
+        next.setVisible(false);
         
         
        /*Event listener for the exit button*/ 
@@ -125,10 +129,41 @@ public class ConwaysGame extends JFrame{
 
             // }            
                }
+               
+               next.setVisible(true);
             }
          });
     
-       
+
+       /*Event listener for the next button*/ 
+       next.addActionListener(new ActionListener() {
+         public void actionPerformed(ActionEvent arg0) {
+           /*A new Game object is created and the output is stored back into the array.*/
+            // for(int k=0; k<3;k++){
+            g=new Game(arrGame,rows,cols);
+            g.fillBoard();
+            arrGame = g.block();
+            
+            /*The results are displayed back to the GUI grid*/
+            int value=0;
+            for(int j=0;j<rows*cols;j++){
+               value = arrGame[j];
+               buttons[j].setText("");
+               switch(value){
+                  case 0:
+                     buttons[j].setIcon(null);
+                     break;
+                  case 1:
+                     buttons[j].setIcon(X);
+                     break;
+               }
+
+            // }            
+               }
+            
+         }
+       });
+        
         getContentPane().add(BorderLayout.SOUTH, panel);
         getContentPane().add(BorderLayout.CENTER, p);
         setVisible(true);

@@ -25,8 +25,10 @@ This is a java implementation of Conway's Game of Life. There are two versions, 
 	5. Enter the number of rows and columns and click on "create". 
 	6. The frame below will appear:
 <img width="249" alt="p2" src="https://user-images.githubusercontent.com/48881424/105154275-0f599480-5b12-11eb-8809-f3f34415574f.PNG">	
+
 	7. Click on the grid to place your blocks and click on "start".
-	8. Click on "Exit" if you wish to close the game.
+	8. A button labeled "next" will appear. This will allow you to view the next iteration.
+	9. Click on "Exit" if you wish to close the game.
 
 	Command line based:
 	1. Open Test.java and Game.java
@@ -44,5 +46,4 @@ This is a java implementation of Conway's Game of Life. There are two versions, 
 	For an empty space:
 	1. Each cell with three neighbours becomes populated.
 
-Credits: Done by Suvana Rohanlal
-	 20/01/2021
+### Credits: Done by Suvana Rohanlal - 20/01/2021

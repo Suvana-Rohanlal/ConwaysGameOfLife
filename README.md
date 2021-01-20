@@ -13,21 +13,18 @@ This is a java implementation of Conway's Game of Life. There are two versions, 
 	1. Download the zip version of the repository.
 	2. Alternatively, pull the repository using the following line;
 		
- 
 ## Usage: 
-	GUI based game:'
+	GUI based game:
 	1. Open homepage.java, ConwaysGame.java, GridButton.java and Game.java in a texteditor.
 	2. In your command line: Compile the four files using javac
 	3. In your command line: Run homepage.java using: java homepage
-	4. The GUI frame shown below will be visible:
-	
-	<img width="250" alt="p1" src="https://user-images.githubusercontent.com/48881424/105154219-fea91e80-5b11-11eb-96f2-e58f3c8bd160.PNG">
-	
+	4. The GUI frame shown below will be visible: 
+
+<img width="250" alt="p1" src="https://user-images.githubusercontent.com/48881424/105154219-fea91e80-5b11-11eb-96f2-e58f3c8bd160.PNG"> 	
+
 	5. Enter the number of rows and columns and click on "create". 
 	6. The frame below will appear:
-	
-	<img width="249" alt="p2" src="https://user-images.githubusercontent.com/48881424/105154275-0f599480-5b12-11eb-8809-f3f34415574f.PNG">
-	
+<img width="249" alt="p2" src="https://user-images.githubusercontent.com/48881424/105154275-0f599480-5b12-11eb-8809-f3f34415574f.PNG">	
 	7. Click on the grid to place your blocks and click on "start".
 	8. Click on "Exit" if you wish to close the game.
 

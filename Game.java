@@ -82,44 +82,9 @@ public class Game{
       
       return arr;
    }
+   
+  
 }
 
 
-    /* public int[] block(){
-      int pos=0;
-     // Loop through every cell 
-        for (int l = 1; l < rows-1 ; l++) 
-        { 
-            for (int m = 1; m < columns-1 ; m++) 
-            { 
-                // finding no Of Neighbours that are alive 
-                int aliveNeighbours = 0; 
-                for (int i = -1; i <= 1; i++) {
-                    for (int j = -1; j <= 1; j++){ 
-                        aliveNeighbours += board[l + i][m + j]; 
-                    }
-                 }
-                // The cell needs to be subtracted from 
-                // its neighbours as it was counted before 
-                aliveNeighbours -= board[l][m]; 
-  
-                // Implementing the Rules of Life 
-  
-                // Cell is lonely or overpopulated and dies 
-                if (((board[l][m] == 1) && (aliveNeighbours < 2)) || ((board[l][m] == 1) && (aliveNeighbours > 3))) {
-                    arr[pos] = 0;  
-                 } 
-                // A new cell is born 
-                else if ((board[l][m] == 0) && (aliveNeighbours == 3)) {
-                    arr[pos] = 1; 
-                  }
-  
-                // Remains the same 
-                else{
-                    arr[pos] = board[l][m]; 
-                }
-               pos++;
-            } 
-        } 
-      return arr;
-   }*/
+   

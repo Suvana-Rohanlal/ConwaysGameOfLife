@@ -64,6 +64,7 @@ public class ConwaysGame extends JFrame{
                   arrGame[i]=0;
                }
             }
+           // for(int k=0; k<3;k++){
             g=new Game(arrGame,rows,cols);
             g.fillBoard();
             arrGame = g.block();
@@ -75,17 +76,16 @@ public class ConwaysGame extends JFrame{
                switch(value){
             case 0:
                 buttons[j].setIcon(null);
-               // setText("0");
+               
                 break;
             case 1:
                 buttons[j].setIcon(X);
-               // setText("1");
+               
                 break;
         }
 
-             }
-            
-         }
+            // }            
+         }}
       });
     
        

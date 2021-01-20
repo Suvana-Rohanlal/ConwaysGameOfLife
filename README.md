@@ -36,6 +36,10 @@ This is a java implementation of Conway's Game of Life. There are two versions, 
 	3. In your command line: Run Test.java using: java Test
 	4. You will be prompted to enter the rows and columns
 	5. The grid will be generated with random figures and run 3 iterations.
+	
+	Unit Testing:
+	1. GameTest.java was created for  unit testing.
+	2. Compile and run GameTest.java to view if all tests were passed successfully. 
 
 ## Rules of the Game:
 	For a filled cell:

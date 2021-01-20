@@ -50,4 +50,4 @@ This is a java implementation of Conway's Game of Life. There are two versions, 
 	For an empty space:
 	1. Each cell with three neighbours becomes populated.
 
-### Credits: Done by Suvana Rohanlal - 20/01/2021
+###### Credits: Done by Suvana Rohanlal - 20/01/2021

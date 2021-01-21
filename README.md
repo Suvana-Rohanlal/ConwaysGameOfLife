@@ -1,7 +1,7 @@
-## Project name: Conway's Game of Life
+## Project name: Conway's Game of Life implementation in Java
 
 ## Description: 
-This is a java implementation of Conway's Game of Life. There are two versions, one with a GUI and one using the command line. 
+This is a java implementation of Conway's Game of Life. There are two versions, one with a GUI and one using the command line. The repository also consists of Unit tests done using JUnit. 
 
 ## Table of Contents: 
 	1. Installation
@@ -49,5 +49,8 @@ This is a java implementation of Conway's Game of Life. There are two versions, 
 
 	For an empty space:
 	1. Each cell with three neighbours becomes populated.
+	
+## License :
+	MIT
 
 ###### Credits: Done by Suvana Rohanlal - 20/01/2021
